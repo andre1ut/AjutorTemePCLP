@@ -2,7 +2,7 @@
 
 ## Set-up la checker
 
-Vom instala de pe Moodle arhiva in care se afla checkerul temei, care este `check_chocolate_rain.zip`
+Vom instala de pe Moodle arhiva in care se afla checkerul temei, care este `check_chocolate_rain.zip` (pentru Tema0, pentru alte teme sunt alte checkere)
 
 Folosim comanda `unzip check_chocolate_rain.zip` dupa ce am descarcat arhiva in linia de comanda, ca sa avem acces la fisierle ei.
 
@@ -36,6 +36,8 @@ Si asa ar trebui sa rulam comanda pentru fiecare librarie pentru care apare acea
 ## Makefile
 
 Dupa cum vedem in Tema0, trebuie sa avem in arhiva zip pe care o trimitem, scriptul de c care contine rezolvarea problemei, un Makefile care contine niste reguli, si un README care sa contina descrierea rezolvarii.
+
+Acest  model de Makefile va fi adaptat in cadrul tuturor temelor de la PCLP, in functie de problemele primite.
 
 Makefile ul are 3 exemple, dar aici este primul exemplu de Makefile ultrasimplificat:
 
@@ -85,3 +87,7 @@ Cand am terminat tema si vrem sa o urcam pe platforma, folosim comanda:
 `make pack` (Trebuie ca Makefile sa fie creat)
 
 **!!!Tineti minte sa aveti in arhiva Makefile, scripturile de c si README!!!**
+
+## Formatare cod
+Folositi comanda, unde <binarX> reprezinta numele scriptului:
+`clang-format -i -style="{IndentWidth: 8, UseTab: Always, BreakBeforeBraces: Linux}" <binarX>.c`
