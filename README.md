@@ -89,7 +89,7 @@ Cand am terminat tema si vrem sa o urcam pe platforma, folosim comanda:
 **!!!Tineti minte sa aveti in arhiva Makefile, scripturile de c si README!!!**
 
 ## Formatare cod
-Folositi comenzile, unde <binarX> reprezinta numele scriptului:
+Folositi comenzile, unde `<binarX>` reprezinta numele scriptului:
 ```
 clang-format -i -style="{IndentWidth: 8, UseTab: Always, BreakBeforeBraces: Linux}" <binarX>.c
 ````
